@@ -25,20 +25,10 @@ include_dirs = [
     os.path.join(pin_home, 'include')
 ]
 
-libraries_32 = [
+libraries = [
     'portal',
     'pcmext',
 ]
-
-libraries_64 = [
-    'portal64',
-    'pcmext64',
-]
-
-if bits == 32:
-    libraries = libraries_32
-else:
-    libraries = libraries_64
 
 library_dirs = [
     os.path.join(pin_home, 'lib')
