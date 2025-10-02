@@ -1,16 +1,12 @@
 # pybrm
 A Python C wrapper for Oracle BRM.
 
-`pybrm` requires >= Python 3.6 and is tested with Python 3.6.5 and 3.7.1, on BRM 7.5 (GCC 4.4.7) and BRM 12 (GCC 4.8.5). It has been tested on both 32bit and 64bit.
+`pybrm` requires >= Python 3.6 on BRM 15.
 
 # Installation
 To install and compile `pybrm`, your `PIN_HOME` environment variable must point to the BRM home directory.
 
-Install it with `pip` like this:
-
-    pip install pybrm
-
-The installation will determine if you are on 32bit or 64bit Python and attempt to install correctly.
+Then install this from source with pip.
 
 # Usage
 
